@@ -1,0 +1,8 @@
+package utils;
+
+public class Constants {//where we keep all the path
+    public static final String CONFIG_FILE_PATH= System.getProperty("user.dir")+"/src/test/resources/config/config.properties";
+    public static final String EXCEL_FILE_PATH= System.getProperty("user.dir")+"/src/test/resources/testdata/Cucumber_Practice.xlsx";
+    public static final String SCREENSHOT_FILEPATH= System.getProperty("user.dir")+"/screenshots/";
+
+}
