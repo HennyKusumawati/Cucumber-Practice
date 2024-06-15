@@ -28,6 +28,8 @@ public class LoginPage extends CommonMethods {
     public void enterPassword() throws IOException {
         sendText(ConfigReader.read("password"),loginPage.passwordTextField);
     }
+
+
     public LoginPage() {
         PageFactory.initElements(driver,this);
     }

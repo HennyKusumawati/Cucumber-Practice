@@ -37,8 +37,8 @@ public class LoginSteps extends CommonMethods {
     public void user_clicks_on_login_button() {
         //  WebElement loginButton = driver.findElement(By.cssSelector("input#btnLogin"));
         //we can use xPath too, ie: //*[@id='btnLogin']
-       // click(loginPage.loginButton);
-        jsClick(loginPage.loginButton);
+       click(loginPage.loginButton);
+      //  jsClick(loginPage.loginButton);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 

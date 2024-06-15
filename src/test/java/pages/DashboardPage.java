@@ -17,6 +17,11 @@ public class DashboardPage extends CommonMethods {
 
     @FindBy(id = "welcome")
     public WebElement welcomeMsg;
+
+
+
+
+
     public DashboardPage() {
         PageFactory.initElements(driver,this);
     }

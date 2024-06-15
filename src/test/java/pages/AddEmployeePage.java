@@ -34,6 +34,15 @@ public class AddEmployeePage extends CommonMethods {
     @FindBy(id = "re_password")
     public  WebElement confirmPass;
 
+    @FindBy(xpath = "//span[text()='Very Weak']")
+    public WebElement vwStrengthMsg;
+
+    @FindBy(xpath = "//span[text()='Strong']")
+    public WebElement passStrengthMsg;
+
+    @FindBy(xpath = "//span[text()='For a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbers']")
+    public WebElement passMsg;
+
     public AddEmployeePage() {
         PageFactory.initElements(driver,this);
     }
